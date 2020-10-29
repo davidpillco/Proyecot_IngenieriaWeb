@@ -8,10 +8,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 section.sliderPrincipal{
-    background-color: brown;
+    background-color: darkblue;
 }
 header.cabezera{
-    background-color: darkgreen;
+    background-color: darkblue;
     color: white;
     height: 90%;
     margin: 0 auto ;
