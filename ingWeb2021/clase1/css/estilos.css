@@ -4,28 +4,113 @@
 }
 
 body {
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
     background-color: rgb(236, 236,236);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-section.sliderPrincipal{
-    background-color: darkblue;
-}
-header.cabezera{
-    background-color: darkblue;
+
+header.cabeceraPrincipal{
+    background-color: rgb(58, 58, 58);
     color: white;
     height: 90%;
     margin: 0 auto ;
     border-bottom: 5px solid #000000;
 }
-header.cabezera img{
-    width: 30%;
-    display: inline-block;
-    padding-left: 1em;
+main {
+    width: 90%;
+    margin: auto;
+    background-color: rgb(231, 231, 231);
 }
-header.cabezera h1{
+main section.contenedor{
+    padding: 1em;
+}
+
+header.cabeceraPrincipal img{
+    max-width: 100px;
+    display: inline-block;
+    padding: 2em 10em;
+    vertical-align: top;
+}
+header.cabeceraPrincipal h1{
     font-size: 1em;
-    padding: 3em;
+    padding: 3em 0em 0em 21em;
     width: 60%;
     display: inline-block;
-    text-shadow: rgb(255, 255,255) 2px 2px 1px;
+    text-shadow: rgb(36, 36,36) 2px 2px 1px;
+    
+}
+
+nav.menuPrincipal, .sliderPrincipal, .modulosPrincipales, .piePagina, .contenedor{
+    width: 90%;
+    background-color:rgb(8,51,87) ;
+    margin: 0 auto;
+    text-align: center;
+    height: 30px; /*altura del menu principal*/ 
+}
+nav.menuPrincipal a{
+    color:#ffffff;
+    padding:  6px 30px; /* Seperación de palabras del menú*/
+    text-decoration: none;
+}
+nav.menuPrincipal a:hover{
+    background-color: rgb(144, 223, 247);
+    color: rgb(23, 37, 41);
+}
+.sliderPrincipal{
+    background-color: rgb(119, 118, 118) ;
+}
+.contenedor{
+    background-color: rgb(236, 236,236);
+}
+.servicios{
+    width: 90%;
+    background-color:rgb(194,195,196) ;
+    margin: 0 auto;
+    text-align: center;
+}
+.servicios article.noticias{
+    width: 30%;
+    display: inline-block;
+}
+
+.servicios article.noticias h3{
+    font-size:  2em;
+    color: rgb (4, 146, 146);
+    padding: 1em 0 0 0 ;
+}
+.servicios article.noticias p{
+    text-align:  justify;
+    padding: 1em 1em;
+    color: rgb(58, 59, 58);
+    font-size: 0.9em;
+}
+.servicios article.conferencia{
+    padding: 3em; 
+}
+.servicios article.conferencia h3{
+    font-size:  2em;
+}
+.servicios article.conferencia p{
+    padding: 1em 0 0 0 ;
+}
+.servicios article.conferencia img{
+    padding: 3em;
+}
+.servicios article.redesSociales h3{
+    font-size:  2em;
+    color: rgb (4, 146, 146);
+    padding: 1em 0 1em 0 ;
+}
+.servicios article.redesSociales img{
+    padding: 0 0 2em 0;
+}
+.piePagina{
+    width: 100%;
+    background-color: rgb(31, 32, 32);
+    color: rgb(96, 97,99);
+    text-align: center;
+    height: 150px;
+}
+.piePagina h6{
+    padding: 2em 0;
+    
 }
